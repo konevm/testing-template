@@ -1,0 +1,15 @@
+a {
+    text-decoration: none;
+  }
+  
+  ul li>a span {
+    &:first-of-type {
+      color: "red";
+      #list {
+        .link {
+          padding-top: 20rem;
+        }
+      }
+    }
+    color: "blue";
+  }
